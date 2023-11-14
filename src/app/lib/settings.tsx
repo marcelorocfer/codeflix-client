@@ -8,7 +8,7 @@ export const getAppSettings = (): Promise<{
         theme: 'dark',
         language: 'en',
       });
-    }, 5000);
+    }, 2000);
   });
 }
 
