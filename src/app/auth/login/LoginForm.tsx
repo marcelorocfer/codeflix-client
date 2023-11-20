@@ -5,7 +5,7 @@ import { InputField } from '../InputField';
 
 export default function LoginForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    console.log('submit');
+    alert('submit from login');
     e.preventDefault();
   };
   return (
@@ -17,10 +17,10 @@ export default function LoginForm() {
         <h1 className='text-3xl font-bold'>Login</h1>
         <p className='text-sm text-gray-500'>
           New to the app?{' '}
+          <a href='#' className='text-red-500 hover:underline'>
+            Register
+          </a>
         </p>
-        <a href='#' className='text-red-500 hover:underline'>
-          Register
-        </a>
       </div>
       <div className='mt-8 flex flex-col space-y-4'>
         <InputField
