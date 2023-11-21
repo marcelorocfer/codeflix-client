@@ -22,7 +22,7 @@ export const AuthForm: React.FC<AuthFormProps> = ({
         >
           {formType === 'login' ? 'Login' : 'Register'}
         </h1>
-        <p>
+        <p className='text-sm text-gray-500'>
           {formType === 'login' 
             ? 'New to app?' 
             : 'Already have an account?'}{' '}
