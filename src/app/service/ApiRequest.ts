@@ -23,11 +23,11 @@ export function buildQueryString(params: ApiQueryParams) {
   return `?${new URLSearchParams(Object.fromEntries(query)).toString()}`;
 }
 
-export async function apiRequest(
+export async function apiRequest<T>(
   endpoint: string, 
   query: ApiQueryParams = {}, 
   options: RequestOptions = {}
-): Promise<any> {
+): Promise<T> {
   const mergedOptions: RequestOptions = { ...defaultOptions, ...options };
   const queryString: string = buildQueryString({ ...query, ...mergedOptions });
   try {
