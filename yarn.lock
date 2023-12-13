@@ -995,6 +995,13 @@
     "@typescript-eslint/types" "5.60.0"
     eslint-visitor-keys "^3.3.0"
 
+"@vidstack/react@^1.9.7":
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/@vidstack/react/-/react-1.9.7.tgz#16e0d00585f3bbd7112703cc5e114b5152cc32de"
+  integrity sha512-fCkQOdII9s9ywhogd/CWvvLCV6bdn24j3ISbctaBGaX5lf7k1ExR7OJ6Vodtppdp5SjRPjkZv7HTGsqNaGPBig==
+  dependencies:
+    media-captions "^1.0.1"
+
 abab@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.6.tgz#41b80f2c871d19686216b82309231cfd3cb3d291"
@@ -3500,6 +3507,11 @@ makeerror@1.0.12:
   integrity sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg==
   dependencies:
     tmpl "1.0.5"
+
+media-captions@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/media-captions/-/media-captions-1.0.2.tgz#90a6595c3de0859308e996d8b151a1f3bab9e242"
+  integrity sha512-QxAFc+XTGZeMx+ZvLtMxEDgAjd0kr1LJ2NekLr1cw/UKENOxK7B9g6HwtuTQzCXxmb4Dknd4T8M7FOqqCK9buA==
 
 merge-stream@^2.0.0:
   version "2.0.0"
